@@ -1,8 +1,7 @@
 package views;
 
 import data.Persistencia;
-import domain.Vehiculo;
-import domain.VehiculoTipo;
+import domain.*;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.Optional;
@@ -15,6 +14,20 @@ public class Controlador {
             vehiculos.add(new VehiculoViewModel(vehiculo));
         }
         return vehiculos;
+    }
+    
+    public static void registrarVehiculoElectrico(String patente, Marca marca, String modelo, int anio, double capacidadCarga,
+                             Sucursal sucursal, double kwhBase){
+        VehiculoElectrico ve = new VehiculoElectrico(patente, marca, modelo, anio, capacidadCarga, sucursal, kwhBase);
+        Persistencia.agregarVehiculo(ve);
+        
+    }
+    
+    public static void registrarVehiculoCombustible(String patente, Marca marca, String modelo, int anio, double capacidadCarga,
+                               Sucursal sucursal, double kilometrosPorLitro, double litrosExtra){
+        VehiculoCombustible vc = new VehiculoCombustible(patente, marca, modelo, anio, capacidadCarga, sucursal, kilometrosPorLitro, litrosExtra);
+        Persistencia.agregarVehiculo(vc);
+        
     }
     
     public static double[] calcularConsumos(Map<String, Double> vehiculos){

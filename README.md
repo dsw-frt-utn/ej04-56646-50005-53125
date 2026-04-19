@@ -2,8 +2,9 @@
 
 # DESARROLLO DE SOFTWARE
 ## Ejercicio Nº4
-### Barrozo, Emanuel Alejandro - 53125
-
 56646 + Roldan , Pablo David + pablo.roldan1@alu.frt.utn.edu.ar
 53125 + Barrozo , Emanuel Alejandro + alejandrobarrozo390@gmail.com
 50005 + Lohezic , Esteban + esteban.lohezic@alu.frt.utn.edu.ar
+
+# UNIVERSIDAD TECNOLOGICA NACIONAL - FACULTAD REGIONAL TUCUMAN
+
