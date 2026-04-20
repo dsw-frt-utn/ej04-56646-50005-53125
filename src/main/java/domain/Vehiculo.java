@@ -2,7 +2,6 @@ package domain;
 
 public abstract class Vehiculo {
     protected String patente;
-    //protected String marca;
     protected String modelo;
     protected int anio;
     protected double capacidadCarga;

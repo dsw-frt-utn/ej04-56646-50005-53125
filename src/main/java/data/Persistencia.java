@@ -8,6 +8,7 @@ public class Persistencia {
     private static ArrayList<Vehiculo> vehiculos = new ArrayList<>();
     private static ArrayList<Responsable> responsables = new ArrayList<>();
     private static ArrayList<Sucursal> sucursales = new ArrayList<>();
+    private static ArrayList<Marca> marcas = new ArrayList<>();
     
     private static void inicializarResponsables(){
         Responsable r1 = new Responsable("Carlos Gómez", "25444111", "3815551111");
@@ -24,33 +25,51 @@ public class Persistencia {
         sucursales.add(s2);
     }
     
-    private static void inicializarVehiculos(){
-        //Sucursal s1 = sucursales.get(0);
-        //Sucursal s2 = sucursales.get(1);
+    private static void inicializarMarcas(){
+        Marca m1 = new Marca("BMW","Alemania");
+        Marca m2 = new Marca("Ford","Estados Unidos");
+        Marca m3 = new Marca("Honda","Japón");
+        Marca m4 = new Marca("Renault","Francia");
         
-        //VehiculoElectrico v1 = new VehiculoElectrico("AE123FG", "Renault", "Kangoo E-Tech", 2020, 1000, s1, 16);
-        //VehiculoElectrico v2 = new VehiculoElectrico("AF456HI", "Ford", "E-Transit", 2021, 1300, s2, 16);
-        //VehiculoElectrico v1 = new VehiculoElectrico("AE123FG", new Marca("Toyota", "Japon"), "Corolla", 2020, 1000, s1, 16);
-
-        //VehiculoCombustible v3 = new VehiculoCombustible("AC789JK", "Iveco", "Daily", 2023, 1200, s1, 8, 1.5);
-        //VehiculoCombustible v4 = new VehiculoCombustible("AD321LM", "Mercedes", "Sprinter", 2020, 1200, s2, 7, 1);
-        
-        //vehiculos.add(v1);
-        //vehiculos.add(v2);
-        //vehiculos.add(v3);
-        //vehiculos.add(v4);
+        marcas.add(m1);
+        marcas.add(m2);
+        marcas.add(m3);
+        marcas.add(m4);
     }
     
-    public static void agregarVehiculo(Vehiculo vehiculo){
-        vehiculos.add(vehiculo);
+    public static boolean agregarVehiculo(Vehiculo vehiculo){
+        try{
+            vehiculos.add(vehiculo);
+        } catch (Exception e){
+            return false;
+        }
+        return true;
     }
     
     public static ArrayList<Vehiculo> getVehiculos(){
         return vehiculos;
     }
     
-    public static ArrayList<Sucursal> getSucursal(){
+    public static ArrayList<Marca> getMarcas(){
+        return marcas;
+    }
+    
+    public static Marca getMarca(String marca){
+        return marcas.stream()
+                 .filter(m -> m.getNombre().equalsIgnoreCase(marca))
+                 .findFirst()
+                 .orElse(null);
+    }
+    
+    public static ArrayList<Sucursal> getSucursales(){
         return sucursales;
+    }
+    
+    public static Sucursal getSucursal(String sucursal){
+        return sucursales.stream()
+                .filter(s -> s.getCodigo().equalsIgnoreCase(sucursal))
+                .findFirst()
+                .orElse(null);
     }
     
     public static Optional<Vehiculo> getVehiculo(String patente){
@@ -62,6 +81,6 @@ public class Persistencia {
     public static void inicializar(){
         inicializarResponsables();
         inicializarSucursales();
-        inicializarVehiculos();
+        inicializarMarcas();
     }
 }
