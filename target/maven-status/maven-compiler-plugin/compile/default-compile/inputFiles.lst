@@ -1,4 +1,19 @@
-<<<<<<< HEAD
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\domain\Responsable.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\views\Controlador.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\views\ListarVehiculosView.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\views\IngresarVehiculoView.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\domain\Vehiculo.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\views\MenuPrincipalView.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\views\VehiculoViewModel.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\data\Persistencia.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\domain\VehiculoElectrico.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\domain\VehiculoCombustible.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\domain\Marca.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\app\Program.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\domain\Sucursal.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\views\MarcaViewModel.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\views\SucursalViewModel.java
+D:\DSW2026\50005\src\EJ03\ej04-56646-50005-53125\src\main\java\domain\VehiculoTipo.java
 C:\DSW2026\53125\src\EJ04\ej04-56646-50005-53125\src\main\java\app\Program.java
 C:\DSW2026\53125\src\EJ04\ej04-56646-50005-53125\src\main\java\data\Persistencia.java
 C:\DSW2026\53125\src\EJ04\ej04-56646-50005-53125\src\main\java\domain\Marca.java
@@ -12,17 +27,3 @@ C:\DSW2026\53125\src\EJ04\ej04-56646-50005-53125\src\main\java\views\Controlador
 C:\DSW2026\53125\src\EJ04\ej04-56646-50005-53125\src\main\java\views\IngresarVehiculoView.java
 C:\DSW2026\53125\src\EJ04\ej04-56646-50005-53125\src\main\java\views\ListarVehiculosView.java
 C:\DSW2026\53125\src\EJ04\ej04-56646-50005-53125\src\main\java\views\VehiculoViewModel.java
-=======
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\app\Program.java
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\data\Persistencia.java
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\domain\Marca.java
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\domain\Responsable.java
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\domain\Sucursal.java
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\domain\Vehiculo.java
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\domain\VehiculoCombustible.java
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\domain\VehiculoElectrico.java
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\domain\VehiculoTipo.java
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\views\Controlador.java
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\views\ListarVehiculosView.java
-C:\Users\pablo\ej04-56646-50005-53125\src\main\java\views\VehiculoViewModel.java
->>>>>>> development
