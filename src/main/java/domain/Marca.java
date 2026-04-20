@@ -1,4 +1,3 @@
- 
 package domain;
 
 /**
@@ -28,6 +27,5 @@ public class Marca {
 
     public void setPais(String pais) {
         this.pais = pais;
-    }
-    
+    }    
 }

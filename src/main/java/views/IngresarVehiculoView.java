@@ -8,10 +8,6 @@ import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 import javax.swing.DefaultComboBoxModel;
 
-/**
- *
- * @author Usuario
- */
 public class IngresarVehiculoView extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(IngresarVehiculoView.class.getName());

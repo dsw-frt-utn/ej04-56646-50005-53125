@@ -14,6 +14,7 @@ app\Program.class
 views\MenuPrincipalView$1.class
 views\VehiculoViewModel.class
 views\IngresarVehiculoView.class
+views\IngresarVehiculoView.class
 views\ListarVehiculosView.class
 domain\Sucursal.class
 views\ListarVehiculosView$2.class
