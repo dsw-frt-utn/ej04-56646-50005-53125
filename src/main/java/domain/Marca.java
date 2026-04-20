@@ -1,4 +1,5 @@
  
+ 
 package domain;
 
 /**
@@ -10,6 +11,15 @@ public class Marca {
     private String pais;
     
     public Marca(String nombre, String pais){
+ 
+package domain;
+
+public class Marca {
+    private String nombre;
+    private String pais;
+
+    public Marca(String nombre, String pais) {
+ 
         this.nombre = nombre;
         this.pais = pais;
     }
@@ -29,5 +39,9 @@ public class Marca {
     public void setPais(String pais) {
         this.pais = pais;
     }
+ 
     
 }
+ 
+}
+ 
